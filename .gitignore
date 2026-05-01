@@ -1,0 +1,37 @@
+# macOS / filesystem noise
+.DS_Store
+._*
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+tmp/
+.tmp/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node.js artifacts
+node_modules/
+dist/
+coverage/
